@@ -15,12 +15,12 @@ const ModalPelicula = () => {
           className="font-black text-red-600 text-2xl"
         >X</button>
       </div>
-      <div className="h-full w-full flex flex-col items-center justify-center">
+      <div className="h-full w-full flex flex-col items-center justify-center p-6">
         <h2 className="text-center uppercase font-bold text-4xl text-gray-700">{movie.title}</h2>
-        <div className="w-1/2">
+        <div className="w-full flex flex-row items-center">
           <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={`Poster pelicula ${movie.title}`} className="py-6" />
+        <p className="text-start text-gray-700 p-4 text-lg">{movie.overview}</p>
         </div>
-        <p className="text-center text-gray-700 py-2 text-lg">{movie.overview}</p>
       </div>
     </div>
   )
