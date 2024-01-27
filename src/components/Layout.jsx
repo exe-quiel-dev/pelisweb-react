@@ -15,7 +15,6 @@ const customStyles = {
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
     width: '75%',
-    maxheight: '85%'
   },
 };
 
@@ -57,7 +56,7 @@ function Layout() {
           isOpen={modal}
           style={customStyles}
         >
-          <ModalPelicula />
+          <ModalPelicula/>
         </Modal>
       )}
     </>

@@ -8,7 +8,7 @@ const ModalPelicula = () => {
 
 
   return (
-    <div className="w-full">
+    <div className="w-full max-h-screen">
       <div className="flex justify-end">
         <button
           onClick={() => { handleChangeModal() }}
