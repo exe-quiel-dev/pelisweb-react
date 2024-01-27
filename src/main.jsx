@@ -7,7 +7,6 @@ import './index.css'
 // CMPONENTS
 import Layout from './components/Layout'
 import Index from '../pages/Index'
-import Nosotros from '../pages/Nosotros'
 // CONTEXT
 import { PeliculasProvider } from "../src/context/PeliculasProvider";
 
@@ -21,12 +20,7 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Index />
-      },
-      {
-        path: '/nosotros',
-        element: <Nosotros />
       }
-
     ]
   }
 ])

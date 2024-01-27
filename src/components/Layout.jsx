@@ -14,7 +14,7 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    width: '65%'
+    width: '75%'
   },
 };
 
@@ -29,7 +29,6 @@ function Layout() {
         <nav className="flex items-center justify-between px-4">
           <Link><h1 className="text-6xl font-black text-yellow-400 cursor-pointer">Pelis Web</h1></Link>
           <div className="flex items-center justify-center gap-6 text-white w-1/3">
-            <Link to="nosotros" className="cursor-pointer">Nosotros</Link>
           </div>
         </nav>
       </header>

@@ -42,6 +42,10 @@ const PeliculasProvider = ({ children }) => {
   useEffect(() => {
     cargarPeliculas()
   }, [pagina])
+
+  useEffect(() => {
+    
+  }, [peliculas])
  
   const handleChangeModal = () => {
     setModal(!modal)
